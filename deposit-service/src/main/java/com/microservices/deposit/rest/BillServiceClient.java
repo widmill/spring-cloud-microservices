@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
 
-@FeignClient(name = "bill-service")
+@FeignClient(name = "bill-service", decode404 = true)
 public interface BillServiceClient {
 
     @RequestMapping(value = "/bills/{billId}", method = RequestMethod.GET)

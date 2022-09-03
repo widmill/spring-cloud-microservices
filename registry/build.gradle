@@ -12,10 +12,6 @@ repositories {
     mavenCentral()
 }
 
-bootJar {
-    enabled = false
-}
-
 ext {
     set('springCloudVersion', "Hoxton.SR1")
 }
