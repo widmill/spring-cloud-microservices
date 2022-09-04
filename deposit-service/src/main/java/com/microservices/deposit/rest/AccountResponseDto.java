@@ -58,4 +58,23 @@ public class AccountResponseDto {
         return email;
     }
 
+    public void setAccountId(Long accountId) {
+        this.accountId = accountId;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public void setCreationDate(OffsetDateTime creationDate) {
+        this.creationDate = creationDate;
+    }
 }

@@ -52,4 +52,28 @@ public class BillResponseDto {
     public boolean isOverdraftEnabled() {
         return overdraftEnabled;
     }
+
+    public void setBillId(Long billId) {
+        this.billId = billId;
+    }
+
+    public void setAccountId(Long accountId) {
+        this.accountId = accountId;
+    }
+
+    public void setAmount(BigDecimal amount) {
+        this.amount = amount;
+    }
+
+    public void setDefault(boolean aDefault) {
+        isDefault = aDefault;
+    }
+
+    public void setCreationDate(OffsetDateTime creationDate) {
+        this.creationDate = creationDate;
+    }
+
+    public void setOverdraftEnabled(boolean overdraftEnabled) {
+        this.overdraftEnabled = overdraftEnabled;
+    }
 }
