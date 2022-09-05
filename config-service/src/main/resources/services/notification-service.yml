@@ -1,10 +1,10 @@
 server:
-  port: 9999
+  port: 9090
 
 spring:
   rabbitmq:
     port: 5672
-    host: rabbitmq
+    host: localhost
     username: guest
     password: guest
     listener:
